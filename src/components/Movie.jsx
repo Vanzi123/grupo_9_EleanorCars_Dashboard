@@ -25,8 +25,8 @@ function products () {
     return (
       <>
         {/*<!-- PRODUCTS LIST -->*/}
-        <h1 className="h3 mb-2 text-gray-800">
-          All the movies in the Database
+        <h1 className="text-center h3 mb-2 text-gray-800">
+          Listado de productos
         </h1>
 
         {/*<!-- DataTales Example -->*/}

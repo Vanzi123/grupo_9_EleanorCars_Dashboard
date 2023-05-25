@@ -43,7 +43,7 @@ function Genres () {
         <div className="col-lg-6 mb-4">
           <div className="card shadow mb-4">
             <div className="card-header py-3">
-              <h5 className="m-0 font-weight-bold text-gray-800" id="genero">
+              <h5 className="text-center m-0 font-weight-bold text-gray-800" id="genero">
                 Tipos de vehiculos / Productos por tipo 
               </h5>
             </div>
