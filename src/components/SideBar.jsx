@@ -6,6 +6,7 @@ import MovieList from './MovieList';
 import ContentWrapper from './ContentWrapper';
 import NotFound from './NotFound';
 import SearchMovies from './SearchMovies';
+import Movie from './Movie'
 
 
 
@@ -105,7 +106,7 @@ function SideBar(){
                 <Route path='/'  element={<ContentWrapper />} />
                 <Route path='/generos'  element={<GenresInDb />} />
                 <Route path='/dash'  element={<ContentWrapper />} />
-                <Route path='/lala'  element={<SearchMovies />} />
+                <Route path='/lala'  element={<Movie />} />
                 <Route path='*'  element={< NotFound />} />
             </Routes>
             
